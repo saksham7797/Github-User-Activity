@@ -33,6 +33,7 @@ It demonstrates:
 ```bash
 git clone [https://github.com/saksham7797/Github-User-Activity.git](https://github.com/saksham7797/Github-User-Activity.git)
 cd Github-User-Activity
+```
 2. Compile the Code
 Since this project uses no external build tools (Maven/Gradle), you can compile it directly with javac.
 
