@@ -66,15 +66,6 @@ java Main \<username\>
 
 java Main torvalds
 
-## **🔮 Future Improvements**
-
-* $$ $$  
-  Add caching mechanism to reduce API calls (handle Rate Limiting better).  
-* $$ $$  
-  Support colorized command-line interface output (ANSI colors).  
-* $$ $$  
-  Filter activity by event type (e.g., show only 'Push' events).
-
 ## **📂 Project Structure**
 
 Github-User-Activity/  
@@ -82,4 +73,4 @@ Github-User-Activity/
 ├── DataCollector.java  \# API Client & Parser Logic  
 └── README.md           \# Documentation
 
-**Built by [Saksham](https://www.google.com/search?q=https://github.com/saksham7797)**
+##This project is a part of https://roadmap.sh/projects/github-user-activity
