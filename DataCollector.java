@@ -18,13 +18,16 @@ public class DataCollector {
             response = client.send(request, HttpResponse.BodyHandlers.ofString());
         } catch (IOException e) {
             System.out.println("Some error occured");
+            System.exit(1);
         }         
         return response.body();
     }
 
     public String parser(String userName) throws InterruptedException {
         String raw = userEvents(userName);
-        // System.out.println(raw);
+        if(raw.contains("Not Found")) {
+            return "User not found";
+        }
         String event;
         String name;
         int i = 0;
